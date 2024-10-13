@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getMessage(){
-        return "This is message from pod";
+        return "Hi Hanif!, This is message from pod";
     }
 
 }
